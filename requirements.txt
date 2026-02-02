@@ -1,0 +1,6 @@
+# Steam Download Monitor dependencies
+# для более надёжного парсинга VDF/ACF:
+valve-vdf>=3.0.0
+
+# для мгновенной реакции на изменения content_log.txt:
+watchdog>=2.1.0
