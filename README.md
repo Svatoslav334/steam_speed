@@ -22,3 +22,5 @@ Cкрипт на Python, который будет работать в фоне 
 Loaded Steam library folders configuration: <SteamPath>\steamapps\libraryfolders.vdf
 Steam может иметь несколько библиотек (не только в папке установки!).
 
+Если постаивть слишком быструю скорость проверки, то стоит учитывать, что Steam в логах пишет: ***state changed : Update Required,Update Queued,Update Running,
+***. Значит, что в этот момент сетевого трафика ещё нет. Может длится 10-40 секунд. 
