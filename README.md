@@ -13,10 +13,10 @@ Cкрипт на Python, который будет работать в фоне 
 ## Требования
 - Python 3.8+
 - Windows (для работы с `winreg`)
+  
 ## Запуск
+```python steam_monitor.py```
 
-```bash```
-python steam_monitor.py
 Путь установки steam в реестре находится по пути:
 ***HKEY_CURRENT_USER\Software\Valve\Steam***
 и по ключу SteamPath можно узнать точное местоположение установки.
