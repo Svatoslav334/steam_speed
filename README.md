@@ -30,11 +30,10 @@ Cкрипт на Python, который будет работать в фоне 
 
 Где лежат эти файлы?
 посмотрим повнимательнее в ***<SteamPath>/logs/content_log*** и увидим:
-Loaded Steam library folders configuration: <SteamPath>\steamapps\libraryfolders.vdf
+***Loaded Steam library folders configuration: <SteamPath>\steamapps\libraryfolders.vdf***
 Steam может иметь несколько библиотек (не только в папке установки!).
 
-Если постаивть слишком быструю скорость проверки, то стоит учитывать, что Steam в логах пишет: ***state changed : Update Required,Update Queued,Update Running,
-***. Значит, что в этот момент сетевого трафика ещё нет. Может длится 10-40 секунд. 
+Если постаивть слишком быструю скорость проверки, то стоит учитывать, что Steam в логах пишет: ***state changed : Update Required,Update Queued,Update Running,***. Значит, что в этот момент сетевого трафика ещё нет. Может длится 10-40 секунд. 
 Также стоит учитывать, что ***Current download rate*** в content_log.txt — это не мгновенная скорость сети. Это усреднённая внутренняя. Поэтому может казаться, что вы нажали кнопку загрузки, но в скрипте не отображается, что загрузка происходит. 
 
 Расшифровка статусов:
